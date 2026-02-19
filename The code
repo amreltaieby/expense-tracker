@@ -1,0 +1,29 @@
+print("this program is designed to help you categorize your company's spending into categories and be able to analyze")
+
+amountofcategories = int(input("\nhow many spending categories do you have?: "))
+
+categories = [""] * amountofcategories
+spending = [0] * amountofcategories
+total = 0
+
+for i in range(amountofcategories):
+    categories[i] = input("-please enter a category name: ")
+
+for i in range(amountofcategories):
+    spending[i] = float(input("\nhow much did you spend in category --- " + categories[i] + " --- ?: "))
+    total += spending[i]
+
+percentageofspending = [0.0] * amountofcategories
+
+for i in range(amountofcategories):
+    percentageofspending[i] = (spending[i] / total) * 100
+
+avg = total / amountofcategories
+
+print("")
+
+for i in range(amountofcategories):
+    print(f"percentage of spending = {percentageofspending[i]:.2f}% in category {categories[i]}")
+
+print("total spending :", total)
+print("average spending per category:", avg)
