@@ -1,0 +1,47 @@
+
+this program is designed to help you categorize your company's spending into categories and be able to analyze
+
+how many spending categories do you have?:
+-please enter a category name: a
+-please enter a category name: b
+
+-please enter a category name: c
+
+-please enter a category name: d
+
+-please enter a category name: e
+
+
+how much did you spend in category --- a --- ?: 250
+
+
+
+how much did you spend in category --- b --- ?: 1000
+
+
+
+how much did you spend in category --- c --- ?: 560
+
+
+
+how much did you spend in category --- d --- ?: 100
+
+
+
+how much did you spend in category --- e --- ?: 0
+
+
+
+percentage of spending = 13.09% in category a 
+
+percentage of spending = 52.36% in category b
+
+percentage of spending = 29.32% in category c
+
+percentage of spending = 5.24% in category d
+
+percentage of spending = 0.00% in category e
+
+total spending : 1910.0
+
+average spending per category: 382.0
